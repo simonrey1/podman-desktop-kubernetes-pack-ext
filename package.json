@@ -1,0 +1,20 @@
+{
+  "name": "kubernetes-pack",
+  "displayName": "Kubernetes Extension Pack",
+  "description": "Recommended Kubernetes extensions for Podman Desktop",
+  "version": "0.0.1",
+  "icon": "icon.png",
+  "publisher": "podman-desktop",
+  "license": "Apache-2.0",
+  "engines": {
+    "podman-desktop": ">=1.26.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "podman-desktop.kubernetes-dashboard",
+    "podman-desktop.kubernetes-contexts",
+    "podman-desktop.kreate"
+  ]
+}
